@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6, a {
+	font-family: "Lato", sans-serif
+}
+
+a.italic {
+	font-style: italic;
+}
+
+::placeholder {
+	font-style: italic;
+}
+.material-icons {vertical-align:-14%}
+ 
+
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration:none;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+.btn-link: active{
+  color:#FF0000;
+}
+
+.btn-link: hover {
+    text-decoration: underline;
+}
